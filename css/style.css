@@ -337,9 +337,8 @@ p {
 
 }
 
-/* Delay the animation of the second span to create a staggered effect */
 .txt-rotate span:nth-child(2) {
-  animation-delay: 3s; /* Delay the start of the animation for the second span */
+  animation-delay: 2s; /* Delay the start of the animation for the second span */
 }
 /**  Section spacing  **/
 .margin-t-80 {
