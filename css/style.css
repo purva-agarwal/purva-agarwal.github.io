@@ -313,17 +313,16 @@ p {
 .txt-rotate {
   display: inline-block;
   overflow: hidden; /* Hide overflow content */
-  height: 1.2em; /* Adjust height as needed */
-  line-height: 1.2em; /* Ensure line height matches height for vertical alignment */
-  position: relative; /* Ensure relative positioning for absolute children */
+  height: 1em; /* Adjust height as needed */
+  line-height: 1em; /* Ensure line height matches height for vertical alignment */
 }
 
 .txt-rotate span {
   display: block; /* Display each word as a block element */
+  padding-bottom: 5px; /* Increase padding between words */
   animation: scroll-text 3s linear infinite; /* Adjust duration and timing function as needed */
 }
 
-/* Keyframes for the scrolling animation */
 @keyframes scroll-text {
   0% {
       transform: translateY(0);
@@ -334,12 +333,16 @@ p {
   50% {
       transform: translateY(-200%);
   }
-
+  75% {
+      transform: translateY(-300%);
+  }
 }
 
+/* Delay the animation of the second span to create a staggered effect */
 .txt-rotate span:nth-child(2) {
-  animation-delay: 2s; /* Delay the start of the animation for the second span */
+  animation-delay: 4s; /* Delay the start of the animation for the second span */
 }
+
 /**  Section spacing  **/
 .margin-t-80 {
   margin-top: 80px;
