@@ -74,7 +74,7 @@ body {
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
-  background-color: rgba(247, 247, 247, 0.9);
+  background-color: rgba(247, 247, 247, 0.389);
   overflow-x: hidden;
   background-blend-mode: overlay;
 }
@@ -1018,7 +1018,7 @@ header nav a:hover .svg_img {
   content: "";
   width: 150px;
   height: 150px;
-  background-color: rgb(255, 210, 210);
+  background-color: rgba(255, 210, 210, 0.352);
   position: absolute;
   top: -38%;
   right: -15%;
@@ -1030,7 +1030,7 @@ header nav a:hover .svg_img {
   content: "";
   width: 150px;
   height: 150px;
-  background-color: rgb(248, 160, 160);
+  background-color: rgba(248, 160, 160, 0.285);
   position: absolute;
   top: -15%;
   right: -32%;
@@ -1449,7 +1449,7 @@ li.mixitup-control-active {
   content: "";
   width: 150px;
   height: 150px;
-  background-color: rgb(255, 210, 210);
+  background-color: rgba(255, 210, 210, 0.352);
   position: absolute;
   top: -65%;
   right: -2%;
@@ -1461,7 +1461,7 @@ li.mixitup-control-active {
   content: "";
   width: 150px;
   height: 150px;
-  background-color: rgb(248, 160, 160);
+  background-color: rgba(248, 160, 160, 0.285);
   position: absolute;
   top: -25%;
   right: -13%;
