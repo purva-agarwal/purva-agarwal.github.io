@@ -321,7 +321,7 @@ p {
 .txt-rotate span {
   display: block; /* Display each word as a block element */
   padding-bottom: 5px; /* Increase padding between words */
-  animation: scroll-text 4s linear infinite; /* Adjust duration and timing function as needed */
+  animation: scroll-text 2s linear infinite; /* Adjust duration and timing function as needed */
 }
 
 @keyframes scroll-text {
@@ -337,21 +337,16 @@ p {
   75% {
       transform: translateY(-300%);
   }
-  100% {
-    transform: translateY(0);
+
 }
-}
-/* Delay the animation of the second span to create a staggered effect */
-.txt-rotate span:nth-child(1) {
-  animation-delay: 0s; /* Delay the start of the animation for the first span */
-}
+
 /* Delay the animation of the second span to create a staggered effect */
 .txt-rotate span:nth-child(2) {
-  animation-delay: 4s; /* Delay the start of the animation for the second span */
+  animation-delay: 2s; /* Delay the start of the animation for the second span */
 }
 
 .txt-rotate span:nth-child(3) {
-  animation-delay: 8s; /* Delay the start of the animation for the third span */
+  animation-delay: 4s; /* Delay the start of the animation for the second span */
 }
 
 /**  Section spacing  **/
